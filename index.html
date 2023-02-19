@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>DOCUMENT</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="index.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="form-container">
+        <form>
+            <h2>Create Account</h2>
+            <label>Nombre </br> <input type=text name="nombre" id="input-name" required pattern="([A-Za-z\s])+"
+                    class="fields"></label>
+            <div class="validation" id="error-name"></div>
+            <label>Email</br><input type="email" name="email" id="input-email" required class="fields"
+                    pattern="\S+@\S+\.\S+"></label>
+            <div class="validation email-validation" id="error-email"></div>
+            <label>Clave </br><input type="password" name="clave" id="input-clave" required class="fields"></label>
+            <div class="validation clave-validation" id="error-clave"></div>
+            <label>Confirme su clave </br> <input type="password" name="confirme-su-clave" id="input-confirmation"
+                    required class="fields"> </label>
+            <div class="validation confirmation-validation" id="error-contrasena"></div>
+            <input type="submit" id="button-submit" class="enviar" value="ENVIAR" onclick="validarBoton()">
+        </form>
+    </div>
+</body>
+
+</html>

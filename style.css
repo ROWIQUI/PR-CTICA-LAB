@@ -1,0 +1,54 @@
+body {
+    background-color: #242933;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: #B5CACA;
+}
+
+.form-container {
+    margin: auto;
+    width: 250px;
+    border: 0.5px solid #383f4d;
+    background-color: #2f3644;
+    border-radius: 3px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.form-container>label {
+    margin: auto;
+}
+
+label, input {
+    width: 100%;
+}
+
+.validation {
+    height: 20px;
+    color: red;
+    padding: 5px 0px;
+    font-size: 10px;
+}
+
+.fields {
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    background-color: white;
+    background-position: 230px;
+    background-repeat: no-repeat;
+    border: 3px solid transparent;
+}
+
+.enviar {
+    background-color: #6c63ff;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    width: 259px;
+}
